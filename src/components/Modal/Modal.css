@@ -1,0 +1,65 @@
+.modal-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 21px;
+}
+
+.modal-header h3 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: -0.01em;
+  color: #000000;
+}
+
+.modal-header img {
+  height: 100%;
+  width: 100%;
+  cursor: pointer;
+}
+
+.modal-content {
+  margin-top: 16px;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(14.4vw, 1fr));
+  column-gap: 20px;
+  height: 422px;
+}
+
+.modal-content img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.movie-info {
+  max-height: 100%;
+  width: 100%;
+  display: grid;
+  grid-template-rows: 20px 0.25fr 20px;
+  row-gap: 16px;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: -0.01em;
+  text-align: left;
+}
+
+label,
+.votes {
+  line-height: 24px;
+}
+
+.overview {
+  line-height: 17px;
+}
+
+.votes {
+  line-height: 24px;
+}
+
+strong {
+  font-weight: 600;
+}

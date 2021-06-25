@@ -1,0 +1,45 @@
+.page-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 0px;
+}
+
+.navbar {
+  width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+hr {
+  width: 1200px;
+  border: 1px solid #c0c4cc;
+  opacity: 0.5;
+  margin-top: 20px;
+}
+
+.grid-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 1200px;
+}
+
+@media (max-width: 1800px) {
+  .navbar, hr, .grid-container {
+    width: 1000px;
+  }
+}
+
+@media (max-width: 1300px) {
+  .navbar, hr, .grid-container {
+    width: 800px;
+  }
+}
+
+@media (max-width: 900px) {
+  .navbar, hr, .grid-container {
+    width: 400px;
+  }
+}

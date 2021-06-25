@@ -1,0 +1,39 @@
+.logo:hover {
+    cursor: pointer;
+}
+
+.searchbar {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  width: 180px;
+  height: 36px;
+  background: #ffffff;
+  border: 1px solid #c0c4cc;
+  box-sizing: border-box;
+  border-radius: 2px;
+}
+
+input {
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 15px;
+  letter-spacing: -0.01em;
+  width: 130px;
+  color: #898e9a;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 0px 8px;
+}
+
+button {
+  display: flex;
+  align-items: center;
+}
+
+button img {
+  height: 13.7px;
+  width: 13.7px;
+}
