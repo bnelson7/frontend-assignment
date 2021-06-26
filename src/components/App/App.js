@@ -6,7 +6,6 @@ import MovieContext from "../../MovieContext";
 import axios from "axios";
 import "./App.css";
 
-// console.log(process.env.REACT_APP_MOVIE_DB_API_KEY);
 const App = () => {
   const [movies, setMovies] = useState([]);
   const [movie, setMovie] = useState(null);

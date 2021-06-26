@@ -45,14 +45,10 @@
   font-weight: 400;
   letter-spacing: -0.01em;
   text-align: left;
+  overflow: auto;
 }
 
-label,
-.votes {
-  line-height: 24px;
-}
-
-.overview {
+.overview, label {
   line-height: 17px;
 }
 

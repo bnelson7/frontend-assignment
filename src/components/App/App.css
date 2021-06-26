@@ -1,8 +1,17 @@
+.body {
+  overflow: hidden;
+}
+
 .page-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  display: grid;
+  place-items: center;
   padding: 20px 0px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  overflow: auto;
 }
 
 .navbar {
@@ -26,7 +35,7 @@ hr {
   width: 1200px;
 }
 
-@media (max-width: 1800px) {
+@media (max-width: 1600px) {
   .navbar, hr, .grid-container {
     width: 1000px;
   }
@@ -40,6 +49,20 @@ hr {
 
 @media (max-width: 900px) {
   .navbar, hr, .grid-container {
-    width: 400px;
+    width: 375px;
+  }
+}
+
+@media (max-width: 500px) {
+  .navbar, hr, .grid-container {
+    width: 300px;
+  }
+
+  .searchbar {
+    width: 100px;
+  }
+  
+  input {
+    font-size: 7px;
   }
 }

@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
 import MovieContext from "../../MovieContext";
-import "./Movies.css"
+import "./Movies.css";
 
 const Movies = ({ movies, setModalOpen }) => {
   const { setMovie } = useContext(MovieContext);
@@ -9,7 +9,7 @@ const Movies = ({ movies, setModalOpen }) => {
     e.preventDefault();
     setMovie(movie);
     setModalOpen(true);
-    document.body.style.overflow = "hidden"
+    document.body.style.overflow = "hidden";
   };
 
   return (

@@ -26,7 +26,7 @@ const Navbar = ({ setMovies, fetchMovies }) => {
 
   return (
     <nav className="navbar">
-      <img src={logo} alt="Timescale" className="logo" onClick={fetchMovies}/>
+      <img src={logo} alt="Timescale" className="logo" onClick={fetchMovies} />
       <form onSubmit={e => handleSearch(e, query)} className="searchbar">
         <button type="submit">
           <img
